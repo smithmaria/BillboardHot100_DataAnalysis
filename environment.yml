@@ -1,0 +1,21 @@
+# billboard-analysis Environment Configuration
+#
+# USAGE INSTRUCTIONS:
+# - To create this environment: conda env create -f environment.yml
+# - To activate manually: conda activate billboard-analysis
+# - To deactivate: conda deactivate
+# - To update environment: conda env update -f environment.yml
+#
+name: billboard-analysis
+channels:
+  - conda-forge
+dependencies:
+  - python=3.13
+  - pandas=2.3
+  - numpy=2.3
+  - scipy=1.15
+  - matplotlib=3.10
+  - seaborn=0.13
+  - plotly=6.1
+  - jupyterlab
+  - ipykernel
